@@ -51,7 +51,7 @@ fs.unlink(path2, (err) => {
 })
 
 //module.exports
-const server = app.listen(3001, () => {
+const server = app.listen(process.env.PORT || 3001, () => {
   const { address, port } = server.address();
   console.log("listening");
 });
