@@ -34,21 +34,21 @@ app.get("/ans", (req, res) => {
 });
 
 
-const path1 = './result2.json'
-fs. unlink(path1,(err) => {
-  if(err){
-    console.error(err)
-    return
-  }
-})
+// const path1 = './result2.json'
+// fs. unlink(path1,(err) => {
+//   if(err){
+//     console.error(err)
+//     return
+//   }
+// })
 
-const path2 = './result3.json'
-fs.unlink(path2, (err) => {
-  if (err) {
-    console.error(err)
-    return
-  }
-})
+// const path2 = './result3.json'
+// fs.unlink(path2, (err) => {
+//   if (err) {
+//     console.error(err)
+//     return
+//   }
+// })
 
 //module.exports
 const server = app.listen(process.env.PORT || 3001, () => {
