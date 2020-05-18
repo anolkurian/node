@@ -12,7 +12,8 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "mongoose": "^5.5.2",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.14",
     "personality-text-summary": "^2.2.0"
   },
   "devDependencies": {
